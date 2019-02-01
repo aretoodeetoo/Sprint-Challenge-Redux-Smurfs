@@ -1,7 +1,12 @@
 import {
+  // Fetch initial Smurf list
   FETCH_SMURFS_START,
   FETCH_SMURFS_SUCCESS,
-  FETCH_SMURFS_FAIL
+  FETCH_SMURFS_FAIL,
+  // Add Smurf action creator
+  ADD_SMURFS_START,
+  ADD_SMURFS_SUCCESS,
+  ADD_SMURFS_FAIL,
 } from '../actions';
 
 /*
@@ -35,6 +40,14 @@ const smurfs = (state = initialState, action) => {
       ...state,
       smurfs: action.payload
     }
+    
+    case ADD_SMURFS_SUCCESS:
+    return {
+      ...state,
+      smurfs: action.payload,
+      error: ''
+    }
+
     default:
     return state;
   }
