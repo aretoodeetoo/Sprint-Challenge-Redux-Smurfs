@@ -7,6 +7,7 @@ function SmurfForm(props){
     }
 
     return(
+        <div>
         <h1>Add A Smurf!</h1>
         <form>
             <input 
@@ -33,6 +34,7 @@ function SmurfForm(props){
 
             <button onClick={handleClick}>Click to Add Smurf</button>
         </form>
+        </div>
     );
 }
 
