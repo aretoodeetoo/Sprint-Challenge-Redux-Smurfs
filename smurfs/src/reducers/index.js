@@ -7,7 +7,12 @@ import {
   ADD_SMURFS_START,
   ADD_SMURFS_SUCCESS,
   ADD_SMURFS_FAIL,
+  // Delete Smurf action creator
+  DELETE_SMURF_START,
+  DELETE_SMURF_SUCCESS,
+  DELETE_SMURF_FAIL,
 } from '../actions';
+
 
 /*
  Your initial/default state for this project could *Although does not have to* look a lot like this
@@ -42,6 +47,13 @@ const smurfs = (state = initialState, action) => {
     }
     
     case ADD_SMURFS_SUCCESS:
+    return {
+      ...state,
+      smurfs: action.payload,
+      error: ''
+    }
+
+    case DELETE_SMURF_SUCCESS:
     return {
       ...state,
       smurfs: action.payload,
