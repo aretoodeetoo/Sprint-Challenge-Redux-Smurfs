@@ -25,6 +25,7 @@ class SmurfFormView extends React.Component{
 
     addNewSmurf = () => {
         this.props.addSmurf(this.state.smurf);
+        this.setState({ smurf: '' })
     }
 
     render(){

@@ -12,6 +12,7 @@ function SmurfList(props){
                     <div>{smurf.height} tall</div>
                 </div>
                 <div className="deleteButton">
+                    <img src="https://img.icons8.com/dusk/24/000000/edit.png" alt="Edit"></img>
                     <img src="https://img.icons8.com/dusk/24/000000/clear-symbol.png" alt="delete" onClick={() => props.deleteSmurf(smurf.id)}/>
                 </div>
             </div>
