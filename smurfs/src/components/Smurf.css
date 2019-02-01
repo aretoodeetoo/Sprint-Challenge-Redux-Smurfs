@@ -1,0 +1,32 @@
+.smurfWrapper{
+    margin: 0 auto;
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: flex-start;
+    width: 600px;
+    height: 400px;
+    background-image: url('./smurfVillagebg.jpg');
+}
+
+.singleSmurf{
+    border: 1px solid blue;
+    height: 75px;
+    width: 100%;
+    font-weight: bold;
+    color: red;
+    text-align: left;
+    padding-left: 3%;
+}
+
+.smurfForm{
+    background-image: url('./addASmurg.jpg');
+}
+
+input{
+    width: 75%;
+    font-family: cursive;
+    font-size: 16px;
+}

@@ -41,4 +41,5 @@ class SmurfFormView extends React.Component{
 const mapStateToProps = state => ({})
 
 export default connect(mapStateToProps,
-    { addSmurf })(SmurfFormView);
+    { addSmurf }
+    )(SmurfFormView);
