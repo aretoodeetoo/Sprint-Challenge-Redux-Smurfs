@@ -11,6 +11,8 @@ import {
   DELETE_SMURF_START,
   DELETE_SMURF_SUCCESS,
   DELETE_SMURF_FAIL,
+  // Update Smurf action creator
+  UPDATE_SMURF_SUCCESS,
 } from '../actions';
 
 
@@ -54,6 +56,13 @@ const smurfs = (state = initialState, action) => {
     }
 
     case DELETE_SMURF_SUCCESS:
+    return {
+      ...state,
+      smurfs: action.payload,
+      error: ''
+    }
+
+    case UPDATE_SMURF_SUCCESS:
     return {
       ...state,
       smurfs: action.payload,
