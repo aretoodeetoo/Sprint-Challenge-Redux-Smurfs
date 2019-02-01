@@ -1,5 +1,4 @@
 .smurfWrapper{
-    margin: 0 auto;
     border: 5px solid blue;
     display: flex;
     flex-direction: column;
@@ -8,14 +7,16 @@
     align-content: flex-start;
     width: 600px;
     height: 400px;
+    font-family: sans-serif;
+    font-weight: 400;
     background-image: url('./smurfVillagebg.jpg');
 }
 
 .singleSmurf{
     height: 75px;
     width: 97%;
-    font-weight: bold;
-    color: red;
+    font-weight: 400;
+    color: pink;
     text-align: left;
     padding-left: 3%;
     display: flex;
