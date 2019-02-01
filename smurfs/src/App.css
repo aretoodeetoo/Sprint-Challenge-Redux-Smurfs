@@ -1,0 +1,18 @@
+body{
+  background-color: blue;
+}
+
+.header{
+  text-align: center;
+  background-color: blue;
+  font-family: cursive;
+  font-weight: 600;
+}
+
+.App {
+  text-align: center;
+  border: 1px solid green;
+  display: flex;
+  justify-content: space-evenly;
+  background-image: url('./appSmurfbg.jpg');
+}

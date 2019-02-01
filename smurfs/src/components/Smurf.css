@@ -1,0 +1,43 @@
+.smurfWrapper{
+    border: 5px solid blue;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: flex-start;
+    width: 600px;
+    height: 400px;
+    font-family: sans-serif;
+    font-weight: 400;
+    background-image: url('./smurfVillagebg.jpg');
+}
+
+.singleSmurf{
+    height: 75px;
+    width: 97%;
+    font-weight: 400;
+    color: pink;
+    text-align: left;
+    padding-left: 3%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.deleteButton{
+    justify-self: flex-end;
+    margin-left: 13%;
+    margin-bottom: 3%;
+    width: 5.5%;
+    height: 25%;
+}
+
+.smurfForm{
+    background-image: url('./addASmurg.jpg');
+    border: 5px solid blue;
+}
+
+input{
+    width: 75%;
+    font-family: cursive;
+    font-size: 16px;
+}
