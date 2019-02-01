@@ -13,8 +13,8 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <SmurfListView />
         <SmurfFormView />
+        <SmurfListView />
       </div>
     );
   }
